@@ -103,7 +103,7 @@
 	<div id="g">
 		<div class="container">
 			<div class="row">
-				<h3>OUR SERVICES</h3>
+				<h3>HET PLATFORM</h3>
 				<br>
 				<br>
 				<div class="col-lg-3">
@@ -112,7 +112,28 @@
 					<p>Oefenen op eigen tempo! In plaats van alle leerlingen alles even veel te laten oefenen, draait het bij ons om het zich meester maken van de stof.</p>
 				</div>
 				<div class="col-lg-3">
-					<img src="assets/img/logo.png">
+					<canvas id="javascript" height="130" width="130"></canvas>
+					<script>
+						var data = [
+						{
+							value: 60,
+							color: "#FF0000"
+						},
+						{
+							value : 50,
+							color : "#00CC00"
+						},	
+						{
+							value : 40,
+							color : "#FF7600"
+						},
+						{
+							value : 30,
+							color : "#BDBDBD"
+						}			
+						];
+							var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Pie(data);
+					</script>
 					<h4>Inzicht</h4>
 					<p>Het systeem geeft automatisch aan op welke stof de leerling zich het best kan richten. Dankzij gamification worden de studenten uitgedaagd om door te gaan tot zij echt klaar zijn voor de toets.
 </p>
@@ -140,23 +161,7 @@
 				<br>
 				<br>
 				<div class="col-lg-4">
-					<canvas id="javascript" height="130" width="130"></canvas>
-					<br>
-					<h4>Javascript</h4>
-					<br>
-					<script>
-						var doughnutData = [
-								{
-									value: 70,
-									color:"#f85c37"
-								},
-								{
-									value : 30,
-									color : "#ecf0f1"
-								}
-							];
-							var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
-					</script>
+					
 
 				</div>
 				<div class="col-lg-4">
