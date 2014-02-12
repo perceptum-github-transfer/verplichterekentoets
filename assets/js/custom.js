@@ -1,3 +1,10 @@
+if(jQuery){
+	console.log("ya");
+}
+else{
+	console.log("no")
+}
+
 function formSubmit(){
 	console.log("entered");
  	$("#form1").append("<br><div id='confirm'>Je reactie is ontvangen!</div>");
