@@ -24,7 +24,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.4870198"
-     inkscape:cx="1203.4256"
+     inkscape:cx="1029.3663"
      inkscape:cy="593.90689"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -308,15 +308,6 @@
        height="858.51556"
        x="1593.7227"
        y="177.8067" />
-    <rect
-       ry="23.939898"
-       rx="32.597176"
-       y="908.79083"
-       x="1611.2294"
-       height="90.345406"
-       width="331.72696"
-       id="rect6860"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000004;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        style="fill:none;stroke:#d35400;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Arrow1Mend3)"
        d="m 1670.9949,323.45014 61.5991,0"
@@ -401,11 +392,11 @@
        style="fill:#ffffff;fill-opacity:1;stroke:#000004;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect6856"
        width="331.72696"
-       height="90.345406"
+       height="114.98506"
        x="812.44055"
        y="908.79083"
        rx="32.597176"
-       ry="23.939898" />
+       ry="30.468962" />
     <g
        id="g6758"
        transform="translate(794.62889,0)">
@@ -1961,51 +1952,15 @@
        id="path6802"
        d="m 876.5309,323.45014 61.59914,0"
        style="fill:none;stroke:#d35400;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-end:url(#Arrow1Mend3)" />
-    <text
+    <flowRoot
        xml:space="preserve"
-       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="1774.597"
-       y="952.01019"
-       id="text6834"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         x="1779.0345"
-         y="952.01019"
-         id="tspan6836"><tspan
-           x="1774.597"
-           y="952.01019"
-           style="font-size:32px"
-           id="tspan6838">Haal 3 sterren om </tspan></tspan><tspan
-         sodipodi:role="line"
-         x="1785.2533"
-         y="984.01019"
-         id="tspan6840"><tspan
-           x="1785.2533"
-           y="984.01019"
-           style="font-size:32px"
-           id="tspan6842">verder te mogen</tspan></tspan></text>
-    <text
-       sodipodi:linespacing="100%"
-       id="text6846"
-       y="952.09625"
-       x="980.66321"
-       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       xml:space="preserve"><tspan
-         id="tspan6848"
-         y="952.09625"
-         x="985.10071"
-         sodipodi:role="line"><tspan
-           id="tspan6850"
-           style="font-size:32px"
-           y="952.09625"
-           x="980.66321">Haal 3 sterren om </tspan></tspan><tspan
-         id="tspan6852"
-         y="984.09625"
-         x="991.31946"
-         sodipodi:role="line"><tspan
-           id="tspan6854"
-           style="font-size:32px"
-           y="984.09625"
-           x="991.31946">verder te mogen</tspan></tspan></text>
-  </g>
+       id="flowRoot6865"
+       style="fill-opacity:1;-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:64px;text-anchor:middle;text-align:center;writing-mode:lr;line-height:100%;opacity:1;fill:#ffffff;stroke:#000004;stroke-opacity:1;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:miter;stroke-dashoffset:0;stroke-linecap:square"><flowRegion
+         id="flowRegion6867"><rect
+           id="rect6869"
+           width="285.40933"
+           height="94.452011"
+           x="839.80157"
+           y="766.53522" /></flowRegion><flowPara
+         id="flowPara6871" /></flowRoot>  </g>
 </svg>
