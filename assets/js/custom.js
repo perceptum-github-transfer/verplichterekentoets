@@ -1,4 +1,4 @@
-if(jQuery){
+if(window.jQuery){
 	console.log("ya");
 }
 else{
