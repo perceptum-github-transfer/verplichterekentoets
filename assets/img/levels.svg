@@ -17,8 +17,8 @@
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="levels.svg"
    inkscape:export-filename="C:\Users\Robrecht\Desktop\VR_Site\verplichterekentoets\assets\img\levels.png"
-   inkscape:export-xdpi="42.76088"
-   inkscape:export-ydpi="42.76088">
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.344375"
-     inkscape:cx="1389.0668"
-     inkscape:cy="170.60675"
+     inkscape:zoom="0.4870198"
+     inkscape:cx="1193.7115"
+     inkscape:cy="505.13071"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1294,7 +1294,7 @@
            id="tspan4297"
            style="fill:#000000;fill-opacity:1">3 van 12</tspan></tspan></text>
     <rect
-       style="fill:#1abc9c;fill-opacity:1;stroke:#18683a;stroke-width:2.05694771;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#61e9ce;fill-opacity:1;stroke:#18683a;stroke-width:2.05694771000000020;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4301"
        width="339.93991"
        height="169.98091"
@@ -1302,6 +1302,22 @@
        y="609.98395"
        rx="32.563484"
        ry="32.565586" />
+    <text
+       transform="scale(0.9999677,1.0000323)"
+       xml:space="preserve"
+       style="font-size:82.68123627px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic Bold"
+       x="1022.1907"
+       y="716.46741"
+       id="text4311"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="1022.1907"
+         y="716.46741"
+         id="tspan4313"><tspan
+           x="1022.1907"
+           y="716.46741"
+           style="font-size:82.68123627px;font-weight:bold;fill:#000000;fill-opacity:1;stroke:none;-inkscape-font-specification:League Gothic Bold"
+           id="tspan4315">Getallen</tspan></tspan></text>
     <rect
        ry="42.792347"
        rx="42.792343"
@@ -1366,22 +1382,6 @@
        inkscape:transform-center-x="0.014153078"
        inkscape:transform-center-y="-2.6265686"
        transform="matrix(0.23868804,8.2355259e-4,-8.2349934e-4,0.23870348,889.73762,683.32437)" />
-    <text
-       transform="scale(0.9999677,1.0000323)"
-       xml:space="preserve"
-       style="font-size:82.68123627px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#f4f5f6;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic"
-       x="1022.1907"
-       y="716.48029"
-       id="text4311"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         x="1022.1907"
-         y="716.48029"
-         id="tspan4313"><tspan
-           x="1022.1907"
-           y="716.48029"
-           style="font-size:82.68123627px;fill:#f4f5f6;fill-opacity:1"
-           id="tspan4315">Getallen</tspan></tspan></text>
     <rect
        ry="32.565586"
        rx="32.563484"
@@ -1390,7 +1390,22 @@
        height="169.98091"
        width="339.93988"
        id="rect4319"
-       style="fill:#1abc9c;fill-opacity:1;stroke:#18683a;stroke-width:2.05694771;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#61e9ce;fill-opacity:1;stroke:#18683a;stroke-width:2.05694771000000020;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       transform="scale(0.9999677,1.0000323)"
+       sodipodi:linespacing="100%"
+       id="text4329"
+       y="707.00946"
+       x="1378.4905"
+       style="font-size:83.80927277px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic Bold"
+       xml:space="preserve"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         id="tspan4331"
+         y="707.00946"
+         x="1378.4905"
+         sodipodi:role="line"
+         style="font-size:77.6178894px;font-weight:bold;fill:#000000;fill-opacity:1;stroke:none;-inkscape-font-specification:League Gothic Bold">Verhoudingen</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:0.29019608;stroke:none;filter:url(#filter4035)"
        id="rect4321"
@@ -1455,19 +1470,6 @@
        id="path4327"
        style="fill:#ffff00;fill-opacity:1;stroke:#000004;stroke-width:8.3788166;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="star" />
-    <text
-       transform="scale(0.9999677,1.0000323)"
-       sodipodi:linespacing="100%"
-       id="text4329"
-       y="708.37378"
-       x="1378.6305"
-       style="font-size:89.27651215px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#f4f5f6;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic"
-       xml:space="preserve"><tspan
-         id="tspan4331"
-         y="708.37378"
-         x="1378.6305"
-         sodipodi:role="line"
-         style="font-size:82.68123627px;fill:#f4f5f6;fill-opacity:1">Verhoudingen</tspan></text>
     <rect
        style="fill:#1abc9c;fill-opacity:1;stroke:#18683a;stroke-width:2.05694771;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4335"
@@ -1854,7 +1856,23 @@
        height="169.98091"
        width="339.93991"
        id="rect4173"
-       style="fill:#1abc9c;fill-opacity:1;stroke:#18683a;stroke-width:2.05694771;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#61e9ce;fill-opacity:1;stroke:#18683a;stroke-width:2.05694771000000020;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text4737"
+       y="716.46741"
+       x="213.32449"
+       style="font-size:82.68123627px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic Bold"
+       xml:space="preserve"
+       transform="scale(0.9999677,1.0000323)"><tspan
+         id="tspan4739"
+         y="716.46741"
+         x="213.32449"
+         sodipodi:role="line"><tspan
+           id="tspan4741"
+           style="font-size:82.68123627px;font-weight:bold;fill:#000000;fill-opacity:1;stroke:none;-inkscape-font-specification:League Gothic Bold"
+           y="716.46741"
+           x="213.32449">Getallen</tspan></tspan></text>
     <rect
        transform="matrix(0.56927721,0,0,0.56931403,12.111844,473.63035)"
        style="fill:#ffffff;fill-opacity:0.29019608;stroke:none;filter:url(#filter3969)"
@@ -1919,24 +1937,8 @@
        id="path5102"
        style="fill:#ffff00;fill-opacity:1;stroke:#000004;stroke-width:8.3788166;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="star" />
-    <text
-       sodipodi:linespacing="100%"
-       id="text4737"
-       y="716.48029"
-       x="213.32449"
-       style="font-size:82.68123627px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#f4f5f6;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic"
-       xml:space="preserve"
-       transform="scale(0.9999677,1.0000323)"><tspan
-         id="tspan4739"
-         y="716.48029"
-         x="213.32449"
-         sodipodi:role="line"><tspan
-           id="tspan4741"
-           style="font-size:82.68123627px;fill:#f4f5f6;fill-opacity:1"
-           y="716.48029"
-           x="213.32449">Getallen</tspan></tspan></text>
     <rect
-       style="fill:#1abc9c;fill-opacity:1;stroke:#18683a;stroke-width:2.05694771;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#61e9ce;fill-opacity:1;stroke:#18683a;stroke-width:2.05694771000000020;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4825"
        width="339.93988"
        height="169.98091"
@@ -1944,6 +1946,19 @@
        y="609.98395"
        rx="32.563484"
        ry="32.565586" />
+    <text
+       xml:space="preserve"
+       style="font-size:82.54167938px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic Bold"
+       x="569.59186"
+       y="710.69299"
+       id="text4829"
+       sodipodi:linespacing="100%"
+       transform="scale(0.9999677,1.0000323)"><tspan
+         style="font-size:76.44393921px;font-weight:bold;fill:#000000;fill-opacity:1;stroke:none;-inkscape-font-specification:League Gothic Bold"
+         sodipodi:role="line"
+         x="569.59186"
+         y="710.69299"
+         id="tspan4831">Verhoudingen</tspan></text>
     <rect
        transform="matrix(0.56927722,0,0,0.56931399,367.6365,473.63037)"
        ry="42.792347"
@@ -2008,19 +2023,6 @@
        inkscape:transform-center-x="0.013661804"
        inkscape:transform-center-y="-2.5357227"
        transform="matrix(0.23868805,8.2355254e-4,-8.2349934e-4,0.23870345,435.6184,677.7772)" />
-    <text
-       xml:space="preserve"
-       style="font-size:89.27651215px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#f4f5f6;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic"
-       x="569.76428"
-       y="708.37378"
-       id="text4829"
-       sodipodi:linespacing="100%"
-       transform="scale(0.9999677,1.0000323)"><tspan
-         style="font-size:82.68123627px;fill:#f4f5f6;fill-opacity:1"
-         sodipodi:role="line"
-         x="569.76428"
-         y="708.37378"
-         id="tspan4831">Verhoudingen</tspan></text>
     <rect
        ry="32.565586"
        rx="32.563484"
@@ -2029,7 +2031,20 @@
        height="169.98091"
        width="339.93988"
        id="rect4843"
-       style="fill:#1abc9c;fill-opacity:1;stroke:#18683a;stroke-width:2.05694771;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#61e9ce;fill-opacity:1;stroke:#18683a;stroke-width:2.05694771000000020;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text4847"
+       y="902.6637"
+       x="212.54866"
+       style="font-size:89.27651215000000200px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic Bold;stroke-opacity:1;stroke-width:1.50000000000000000;stroke-miterlimit:4;stroke-dasharray:none"
+       xml:space="preserve"
+       transform="scale(0.9999677,1.0000323)"><tspan
+         style="font-size:82.68123626999999900px;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1;stroke-width:1.50000000000000000;stroke-miterlimit:4;stroke-dasharray:none;font-weight:bold;-inkscape-font-specification:League Gothic Bold"
+         id="tspan4849"
+         y="902.6637"
+         x="212.54866"
+         sodipodi:role="line">Meetkunde</tspan></text>
     <rect
        transform="matrix(0.56927722,0,0,0.56931399,12.111829,660.16077)"
        style="fill:#ffffff;fill-opacity:0.29019608;stroke:none;filter:url(#filter4039)"
@@ -2094,21 +2109,8 @@
        id="path5182"
        style="fill:#ffff00;fill-opacity:1;stroke:#000004;stroke-width:8.3788166;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="star" />
-    <text
-       sodipodi:linespacing="100%"
-       id="text4847"
-       y="902.6637"
-       x="212.54866"
-       style="font-size:89.27651215px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#f4f5f6;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic"
-       xml:space="preserve"
-       transform="scale(0.9999677,1.0000323)"><tspan
-         style="font-size:82.68123627px;fill:#f4f5f6;fill-opacity:1"
-         id="tspan4849"
-         y="902.6637"
-         x="212.54866"
-         sodipodi:role="line">Meetkunde</tspan></text>
     <rect
-       style="fill:#1abc9c;fill-opacity:1;stroke:#18683a;stroke-width:2.05694771;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#61e9ce;fill-opacity:1;stroke:#18683a;stroke-width:2.05694771000000020;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4861"
        width="339.93988"
        height="169.98091"
@@ -2116,6 +2118,19 @@
        y="796.51434"
        rx="32.563484"
        ry="32.565586" />
+    <text
+       xml:space="preserve"
+       style="font-size:89.27651215000000200px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic Bold;stroke-opacity:1;stroke-width:1.50000000000000000;stroke-miterlimit:4;stroke-dasharray:none"
+       x="569.76428"
+       y="902.66113"
+       id="text4865"
+       sodipodi:linespacing="100%"
+       transform="scale(0.9999677,1.0000323)"><tspan
+         style="font-size:82.68123626999999900px;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1;stroke-width:1.50000000000000000;stroke-miterlimit:4;stroke-dasharray:none;font-weight:bold;-inkscape-font-specification:League Gothic Bold"
+         sodipodi:role="line"
+         x="569.76428"
+         y="902.66113"
+         id="tspan4867">Verbanden</tspan></text>
     <rect
        transform="matrix(0.56927722,0,0,0.56931399,367.6365,660.16077)"
        ry="42.792347"
@@ -2180,19 +2195,6 @@
        inkscape:transform-center-x="0.013661804"
        inkscape:transform-center-y="-2.5357227"
        transform="matrix(0.23868805,8.2355254e-4,-8.2349934e-4,0.23870345,435.6184,864.15008)" />
-    <text
-       xml:space="preserve"
-       style="font-size:89.27651215px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#f4f5f6;fill-opacity:1;stroke:none;font-family:League Gothic;-inkscape-font-specification:League Gothic"
-       x="569.76428"
-       y="902.66113"
-       id="text4865"
-       sodipodi:linespacing="100%"
-       transform="scale(0.9999677,1.0000323)"><tspan
-         style="font-size:82.68123627px;fill:#f4f5f6;fill-opacity:1"
-         sodipodi:role="line"
-         x="569.76428"
-         y="902.66113"
-         id="tspan4867">Verbanden</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:0.29019608;stroke:none;filter:url(#filter4980)"
        id="rect4978"
