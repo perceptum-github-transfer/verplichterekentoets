@@ -11,12 +11,19 @@ body {
   background-color: #f2f2f2;
     font-family: "Lato";
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.6em;
     color: #555;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
+@media(max-width: 640px) {  
+  #headerwrap h2 {
+	font-size: 1.5em;
+  }
+}
+
+
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
@@ -103,17 +110,27 @@ a:after {
 	margin-top: 130px;
 	color: white;
 	text-shadow: 2px 2px 4px #666;
-	font-size: 140px;
+	font-size: 6em;
 	font-weight: 700;
 	letter-spacing: 3px;
+}
+@media(max-width: 640px) {
+ #headerwrap h1 {
+    font-size: 3em;
+  }
 }
 
 #headerwrap h2 {
 	color: white;
 	text-shadow: 2px 2px 4px #666;
-	font-size: 50px;
+	font-size: 3em;
 	font-weight: 100;
 	letter-spacing: 2px;
+}
+@media(max-width: 640px) {  
+  #headerwrap h2 {
+	font-size: 1.5em;
+  }
 }
 
 /* Portfolio Wrap */
@@ -199,7 +216,7 @@ a:after {
 }
 
 #f i {
-	font-size: 26px;
+	font-size: 1.625;
 	color: white;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -244,14 +261,14 @@ a:after {
 #itemwrap h1 {
 	margin-top: 40px;
 	color: white;
-	font-size: 100px;
+	font-size: 6.25em;
 	font-weight: 700;
 	letter-spacing: 3px;
 }
 
 #itemwrap h2 {
 	color: white;
-	font-size: 50px;
+	font-size: 3.125em;
 	font-weight: 100;
 	letter-spacing: 2px;
 }
@@ -304,7 +321,7 @@ a:after {
 
 .menu h1.logo a {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	font-weight: 800;
 	letter-spacing: 0.15em;
 	line-height: 40px;
@@ -326,7 +343,7 @@ a:after {
 	margin-left: 20px;
 	color: #808080;
 	display: block;
-	font-size: 12px;
+	font-size: 0.75em;
 	font-weight: 700;
 	line-height: 40px;
 	letter-spacing: 0.1em;
@@ -347,7 +364,7 @@ a:after {
 	vertical-align: middle; 
 	text-align: left;
 	width: 25px;
-	font-size: 14px;
+	font-size: 0.875em;
 	line-height: 40px;
 	margin: 25px 2px;
 }
@@ -356,7 +373,7 @@ a:after {
 	cursor: pointer;
 	display: block;
 	position: absolute;
-	font-size: 14px;
+	font-size: 0.875em;
 	color: #808080;
 	width: 40px;
 	height: 40px;
@@ -410,7 +427,7 @@ a:after {
 	z-index: 11;
 	display: block;
 	text-align: center;
-	font-size: 14px;
+	font-size: 0.875em;
 	color: #ffffff;
 	width: 40px;
 	height: 40px;

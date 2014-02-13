@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.4870198"
-     inkscape:cx="1193.7115"
-     inkscape:cy="505.13071"
+     inkscape:zoom="0.344375"
+     inkscape:cx="1242.9736"
+     inkscape:cy="748.95482"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -365,7 +365,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1814,7 +1814,7 @@
        height="346.41473"
        width="692.78473"
        id="rect4173-4"
-       style="fill:#e67e22;fill-opacity:1;stroke:#18683a;stroke-width:3.25466633;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#e67e22;fill-opacity:1;stroke:#733d0d;stroke-width:3.25466633000000010;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <text
        sodipodi:linespacing="100%"
        id="text5015"
@@ -1856,7 +1856,7 @@
        height="169.98091"
        width="339.93991"
        id="rect4173"
-       style="fill:#61e9ce;fill-opacity:1;stroke:#18683a;stroke-width:2.05694771000000020;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#61e9ce;fill-opacity:1;stroke:#10705d;stroke-width:2.05694771000000020;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <text
        sodipodi:linespacing="100%"
        id="text4737"
