@@ -23,7 +23,7 @@
 	<script type="text/javascript">
 		function formSubmit(flag){
 			console.log("entered" + flag);
-			var text = "<br><div id='confirm' style='color:black;'>Je reactie is ontvangen!</div>";
+			var text = "<div id='confirm' style='color:black;'>Je reactie is ontvangen!</div>";
 			var div = document.getElementById(flag);
 			div.innerHTML = div.innerHTML + text;
 		}
@@ -104,6 +104,7 @@
 							<div dir="ltr" class="ss-item  ss-text">
 								<div class="ss-form-entry">
 									<label aria-hidden="true" class="ss-q-item-label" for="entry_749424840">
+										<br>
 										<div style="color:##7b7b7b; font-size:200%">E-mail:</div>
 										<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
 									</label>
