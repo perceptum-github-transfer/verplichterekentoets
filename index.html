@@ -21,10 +21,52 @@
 	<script src="assets/js/Chart.js"></script>
 	<script src="assets/js/modernizr.custom.js"></script>
 	<script type="text/javascript">
+		/**
+		* Removes previous feedback message and posts a new one
+		* Also provides basic frontend e-mail validation
+		**/
 		function formSubmit(flag){
+			var confirm = document.getElementById('confirm');
+			var wrong = document.getElementById('wrong');
+			
+			// Remove old feedback, if it is present.
+			if(confirm) {
+				confirm.parentNode.removeChild(confirm);
+			}
+			if(wrong) {
+				wrong.parentNode.removeChild(wrong);
+			}
+
+			// Create HTML to append to div
 			var text = "<div id='confirm' style='color:black;'>Je reactie is ontvangen!</div>";
-			var div = document.getElementById(flag);
-			div.innerHTML = div.innerHTML + text;
+			var errorText = "<div id='wrong' style='color:red'>Sorry, dat lijkt niet op een e-mailadres!</div>"
+			
+			// Get user's emailaddress
+			var userInput = document.forms['emailform']['entry.749424840'].value;
+
+			// using http://www.w3schools.com/js/js_form_validation.asp
+			var posAt = userInput.indexOf("@");
+			var posDot = userInput.lastIndexOf(".");
+
+			/**
+			* Check if:
+			* - @ is not first character
+			* - There are at least two characters between @ and the last dot
+			* - There are at least two characters following the last dot 
+			* If userInput fails one of these, an error is appended
+			* If userInput passes all of them, a confirmation is appended
+			**/
+			if(posAt < 1 || posDot < posAt+2 || posDot+2 > userInput.length) {
+				var div = document.getElementById(flag);
+				div.innerHTML = div.innerHTML + errorText;
+				return false;
+			}
+			else {
+				var div = document.getElementById(flag);
+				div.innerHTML = div.innerHTML + text;
+				return true;
+			}
+			
 		}
 	</script>
 
@@ -93,8 +135,11 @@
 				<br>
 				<br>
 				<div class="col-lg-6 col-lg-offset-3">
+					<br>
+					<br>
+					<a href ="#about" style="font-size:300%; font-weight:bold; position:relative; bottom:0;" class="smoothScroll">Direct inschrijven</a>
 
-				<script type="text/javascript">var submitted=false;</script>
+				<!--<script type="text/javascript">var submitted=false;</script>
 					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {formSubmit('form1')};"></iframe>
 			
 					<form action="https://docs.google.com/a/perceptum.nl/forms/d/1ENKFz4VZ5rfEDQX8bqqAL2LhXZihfMEEVjaRQvC6nt4/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
@@ -120,8 +165,7 @@
 						<div class="ss-item ss-navigate">
 							<span id='form1'><input type="submit" name="submit" value="Verzenden" id="submit" id="sendForm"></span>
 						</div>
-					<!--	</ol>	-->
-					</form>
+					</form>-->
 				</div>
 			</div>
 		</div><!-- /container -->
@@ -317,7 +361,7 @@
 				<script type="text/javascript">var submittedDown=false;</script>
 					<iframe name="hidden_iframeDown" id="hidden_iframeDown" style="display:none;" onload="if(submittedDown) {formSubmit('form2')}"></iframe>
 			
-					<form action="https://docs.google.com/a/perceptum.nl/forms/d/1ENKFz4VZ5rfEDQX8bqqAL2LhXZihfMEEVjaRQvC6nt4/formResponse" method="post" target="hidden_iframeDown" onsubmit="submittedDown=true;">
+					<form name = 'emailform' action="https://docs.google.com/a/perceptum.nl/forms/d/1ENKFz4VZ5rfEDQX8bqqAL2LhXZihfMEEVjaRQvC6nt4/formResponse" method="post" target="hidden_iframeDown" onsubmit="submittedDown=true;">
 
 						<div class="ss-form-question errorbox-good">
 							<div dir="ltr" class="ss-item  ss-text">
@@ -336,7 +380,7 @@
 						<input type="hidden" name="fromEmail" value="false">
 						<input type="hidden" name="fbzx" value="1991934352354804778">
 						<div class="ss-item ss-navigate">
-							<span id='form2'><input type="submit" name="submitDown" value="Verzenden" id="submitDown" id="sendFormDown"></span>
+							<span id='form2'><input type="submit" name="submitDown" value="Verzenden" id="submitDown"></span>
 						</div>
 					</form>
 				</div>
