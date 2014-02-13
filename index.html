@@ -20,7 +20,14 @@
     <script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/Chart.js"></script>
 	<script src="assets/js/modernizr.custom.js"></script>
-	<script type="text/javascript">if(window.jQuery){console.log("ja");}else{console.log("nee");}</script>
+	<script type="text/javascript">
+		function formSubmit(flag){
+			var text = "<div id='confirm' style='color:black;'>Je reactie is ontvangen!</div>";
+			var div = document.getElementById(flag);
+			div.innerHTML = div.innerHTML + text;
+		}
+	</script>
+
 	
 
 	
@@ -88,7 +95,7 @@
 				<div class="col-lg-6 col-lg-offset-3">
 
 				<script type="text/javascript">var submitted=false;</script>
-					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {formSubmit()}"></iframe>
+					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {formSubmit('form1')};"></iframe>
 			
 					<form action="https://docs.google.com/a/perceptum.nl/forms/d/1ENKFz4VZ5rfEDQX8bqqAL2LhXZihfMEEVjaRQvC6nt4/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 
@@ -96,6 +103,8 @@
 							<div dir="ltr" class="ss-item  ss-text">
 								<div class="ss-form-entry">
 									<label aria-hidden="true" class="ss-q-item-label" for="entry_749424840">
+										<br>
+										<br>
 										<div style="color:##7b7b7b; font-size:200%">E-mail:</div>
 										<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
 									</label>
@@ -303,9 +312,9 @@
 				<div>
 
 				<script type="text/javascript">var submittedDown=false;</script>
-					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submittedDown) {formSubmitDown()}"></iframe>
+					<iframe name="hidden_iframeDown" id="hidden_iframeDown" style="display:none;" onload="if(submittedDown) {formSubmit('form2')}"></iframe>
 			
-					<form action="https://docs.google.com/a/perceptum.nl/forms/d/1ENKFz4VZ5rfEDQX8bqqAL2LhXZihfMEEVjaRQvC6nt4/formResponse" method="post" target="hidden_iframe" onsubmit="submittedDown=true;">
+					<form action="https://docs.google.com/a/perceptum.nl/forms/d/1ENKFz4VZ5rfEDQX8bqqAL2LhXZihfMEEVjaRQvC6nt4/formResponse" method="post" target="hidden_iframeDown" onsubmit="submittedDown=true;">
 
 						<div class="ss-form-question errorbox-good">
 							<div dir="ltr" class="ss-item  ss-text">
@@ -326,7 +335,6 @@
 						<div class="ss-item ss-navigate">
 							<span id='form2'><input type="submit" name="submitDown" value="Verzenden" id="submitDown" id="sendFormDown"></span>
 						</div>
-						<!--	</ol> -->
 					</form>
 				</div>
 				<br>
